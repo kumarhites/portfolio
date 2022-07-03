@@ -86,7 +86,7 @@ function Body() {
           </div>
           <div className="mb-6">
             <h3 className="font-semibold text-gray-100 pb-1 hover:underline">
-              <a href="#">Blockchain Basics (Coursera)</a>
+              <a href="https://www.coursera.org/account/accomplishments/verify/KVRRVK4E2VPK">Blockchain Basics (Coursera)</a>
             </h3>
           </div>
           <div className="mb-6">
