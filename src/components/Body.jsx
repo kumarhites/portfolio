@@ -53,20 +53,20 @@ function Body() {
         </div>
         <div className="flex-none text-lg text-gray-100 font-light md:flex-1 md:pl-20">
           <div className="mb-6">
-            <h3 className="font-semibold text-gray-100 pb-1 hover:underline ">
-              <a href="#">Languages & Frameworks</a>
+            <h3 className="font-semibold text-gray-100 pb-1 hover:underline" id="languages">
+              <a href="#languages">Languages & Frameworks</a>
             </h3>
             <p className="text-md text-gray-300 text-light">JavaScript (ES6+), React, HTML5, CSS3, Sass, Tailwind, Java</p>
           </div>
           <div className="mb-6">
-            <h3 className="font-semibold text-gray-100 pb-1 hover:underline ">
-              <a href="#">Databases</a>
+            <h3 className="font-semibold text-gray-100 pb-1 hover:underline" id="databases">
+              <a href="#databases">Databases</a>
             </h3>
             <p className="text-md text-gray-300 text-light">MongoDB, MySQL</p>
           </div>
           <div className="mb-6">
-            <h3 className="font-semibold text-gray-100 pb-1 hover:underline ">
-              <a href="#">Other</a>
+            <h3 className="font-semibold text-gray-100 pb-1 hover:underline" id="others">
+              <a href="#others">Other</a>
             </h3>
             <p className="text-md text-gray-300 text-light">Agile / Scrum</p>
           </div>
