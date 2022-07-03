@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="relative">
-      <div className="App relative max-w-screen-xl xs:p-20 p-20">
+      <div className="p-8 relative max-w-screen-xl lg:p-24">
         <Head />
         <Body />
       </div>
