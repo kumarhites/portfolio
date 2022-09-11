@@ -11,7 +11,7 @@ function Body() {
         <div className="flex-none text-lg text-gray-100 font-light md:flex-1 md:pl-20">
           <div className="mb-6">
             <p>
-              I'm a motivated front-end engineer who has experience building and scaling web applications and services in various domains. I'm also passionate about open-source contributions, working in high impact environments, and contributing to growing development teams by helping build great products.
+            I'm a Fullstack Web Developer building Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ function Body() {
               <a href="https://wavencs.netlify.app/" target="_blank">Waves Music app</a>
             </h3>
             <p className="text-md text-gray-300 text-light">Waves is a music app where users can listen to non-copyright  music, fetched via an api made to scrape NCS
-            webpage, which is then consumed by Waves</p>
+            webpage, which is then consumed by Waves Music app</p>
           </div>
           <div className="mb-6">
             <h3 className="font-semibold text-gray-100 pb-1 hover:underline ">
@@ -41,7 +41,7 @@ function Body() {
             <h3 className="font-semibold text-gray-100 pb-1 hover:underline ">
               <Link to="/projects">neoG Camp Projects</Link>
             </h3>
-            <p className="text-md text-gray-100 text-light">This is my web development journey from a CLI application to a Full-stack Applications.</p>
+            <p className="text-md text-gray-100 text-light">From a CLI to a Full-stack Applications.</p>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ function Body() {
             <h3 className="font-semibold text-gray-100 pb-1 hover:underline" id="databases">
               <a href="#databases">Databases</a>
             </h3>
-            <p className="text-md text-gray-300 text-light">MongoDB, MySQL</p>
+            <p className="text-md text-gray-300 text-light">MySQL</p>
           </div>
           <div className="mb-6">
             <h3 className="font-semibold text-gray-100 pb-1 hover:underline" id="others">

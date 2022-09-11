@@ -5,7 +5,7 @@ export default function projectsData(){
             projectName: "How well do you know me?",
             info: "A CLI app built with nodeJS. You can send this to your friends and find out who knows you better.",
             githubLink: "https://github.com/kumarhites/mark1",
-            liveLink: ""
+            liveLink: "https://replit.com/@HiteshKumar17/mark1#index.js"
         },
         {
             id: "Mark 2",
@@ -53,8 +53,8 @@ export default function projectsData(){
             id: "Mark 10",
             projectName: "Cash Register Manager",
             info: "An application which outputs the amount change to be returned to the customer based on given cash and bill amount by the customer.",
-            githubLink: "",
-            liveLink: ""
+            githubLink: "https://github.com/kumarhites/Cash-register-manager",
+            liveLink: "https://cashregstrmanager.netlify.app/"
         },
         {
             id: "Mark 11",
