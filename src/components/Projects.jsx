@@ -13,7 +13,7 @@ function Projects() {
   return (
   <>
     <div className="block mb-6 md:flex">
-      <a href="/" className="flex justify-start items-center p-2 rounded-md hover:bg-slate-800 transistion-all duration-300">
+      <a href="/" className="flex justify-start items-center p-2 rounded-md hover:bg-slate-800 transistion-all duration-300 max-w-[100px]">
       <img src={home} alt="home"/>
       <p className='text-slate-50 font-bold leading-tight ml-3'>Home</p></a>
     </div>
@@ -23,7 +23,7 @@ function Projects() {
               <img src={project} className='rounded-full transform transistion-all duration-150 hover:scale-105' height="150px" width="150"/>
           </a>
         </div>
-        <div className="flex-none pt-6 md:pt-1 md:flex-1 md:pl-20">
+        <div className="flex flex-col justify-center pt-6 md:pt-1 md:flex-1 md:pl-20">
             <h1 className='text-5xl text-slate-50 font-bold leading-tight'>
                 <a aria-current="page" className="cursor-default">neoG Camp Projects</a>
             </h1>
