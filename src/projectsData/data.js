@@ -5,14 +5,14 @@ export default function projectsData(){
             projectName: "How well do you know me?",
             info: "A CLI app built with nodeJS. You can send this to your friends and find out who knows you better.",
             githubLink: "https://github.com/kumarhites/mark1",
-            liveLink: "https://replit.com/@HiteshKumar17/mark1#index.js"
+            liveLink: "https://replit.com/@HiteshKumar17/mark1?embed=1&output=1"
         },
         {
             id: "Mark 2",
             projectName: "Ocean Quiz",
             info: "A small fun quiz to know, how well do you know about our ocean life!",
-            githubLink: "www.github.com",
-            liveLink: "https://replit.com/@HiteshKumar17/mark2#index.js"
+            githubLink: "https://github.com/kumarhites/mark2",
+            liveLink: "https://replit.com/@HiteshKumar17/mark2?embed=1&output=1"
         },
         {
             id: "Mark 3, 4, 5",

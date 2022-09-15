@@ -13,7 +13,7 @@ function Projects() {
   return (
   <>
     <div className="block mb-6 md:flex">
-      <a href="/" className="md:flex justify-center items-center p-2 rounded-md hover:bg-slate-800 transistion-all duration-300">
+      <a href="/" className="flex justify-start items-center p-2 rounded-md hover:bg-slate-800 transistion-all duration-300">
       <img src={home} alt="home"/>
       <p className='text-slate-50 font-bold leading-tight ml-3'>Home</p></a>
     </div>
