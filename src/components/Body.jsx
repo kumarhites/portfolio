@@ -40,7 +40,7 @@ function Body() {
           </div>
           <div className="mb-6">
             <h3 className="font-semibold text-gray-100 pb-1 hover:underline ">
-              <Link to="/projects">neoG Camp Projects</Link>
+              <Link to="/projects"><a href="#top">neoG Camp Projects</a></Link>
             </h3>
             <p className="text-md text-gray-100 text-light">From a CLI to a Full-stack Applications.</p>
           </div>
@@ -55,15 +55,9 @@ function Body() {
         <div className="flex-none text-lg text-gray-100 font-light md:flex-1 md:pl-20">
           <div className="mb-6">
             <h3 className="font-semibold text-gray-100 pb-1 hover:underline" id="languages">
-              <a href="#blog">Dummy Blog 1</a>
+            <Link to="/blogs">Check out my blogs</Link>
             </h3>
-            <p className="text-md text-gray-300 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, hic magni delectus exercitationem ex saepe aspernatur blanditiis maiores, deserunt magnam dolorum fugit vero dolore veritatis eum fugiat ea illum optio?...</p>
-          </div>
-          <div className="mb-6">
-            <h3 className="font-semibold text-gray-100 pb-1 hover:underline" id="databases">
-              <a href="#blog">Dummy Blog 2</a>
-            </h3>
-            <p className="text-md text-gray-300 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quod maxime ratione sint minima voluptatibus sed deleniti illo odit, excepturi libero error, praesentium iure consequuntur ipsa quia nisi tempore distinctio....</p>
+            <p className="text-md text-gray-300 text-light">I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
           </div>
         </div>
       </div>

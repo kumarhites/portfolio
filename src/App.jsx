@@ -5,6 +5,7 @@ import {Routes, Route} from 'react-router-dom'
 import Head from './components/Head'
 import Body from './components/Body'
 import Projects from "./components/Projects";
+import Blogs from "./components/Blogs";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<><Head /><Body /></>}/>
           <Route path='/projects' element={<Projects />}/>
+          <Route path='/blogs' element={<Blogs />}/>
         </Routes>
         
       </div>
