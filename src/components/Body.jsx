@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import { FiArrowUpRight } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
 function Body() {
     return (
         <>
@@ -31,12 +33,24 @@ function Body() {
                 <div className="flex-none text-lg text-gray-100 font-light md:flex-1 md:pl-20">
                     <div className="mb-6">
                         <h3 className="font-semibold text-gray-100 pb-1 hover:underline">
-                            <a
-                                href="https://flocker.netlify.app/"
-                                target="_blank"
-                            >
-                                Flocker [Social media]
-                            </a>
+                            <span className="flex items-center">
+                                <a
+                                    href="https://flocker.netlify.app/"
+                                    target="_blank"
+                                    className="flex items-center mr-2"
+                                >
+                                    Flocker [Social media]{" "}
+                                </a>
+                                <a href="https://github.com/kumarhites/flockr">
+                                    <FaGithub />
+                                </a>
+                                <a
+                                    href="https://flocker.netlify.app/"
+                                    target="_blank"
+                                >
+                                    <FiArrowUpRight className="ml-2" />
+                                </a>
+                            </span>
                         </h3>
                         <p className="text-md text-gray-300 text-light">
                             Flockr is a social media app built with React and
@@ -48,12 +62,24 @@ function Body() {
                     </div>
                     <div className="mb-6">
                         <h3 className="font-semibold text-gray-100 pb-1 hover:underline">
-                            <a
-                                href="https://kicks-ecomm.netlify.app/"
-                                target="_blank"
-                            >
-                                Kicks [E-commerce]
-                            </a>
+                            <span className="flex items-center">
+                                <a
+                                    href="https://kicks-ecomm.netlify.app/"
+                                    target="_blank"
+                                    className="flex items-center mr-2"
+                                >
+                                    Kicks [E-commerce]
+                                </a>
+                                <a href="https://github.com/kumarhites/ecommerce">
+                                    <FaGithub />
+                                </a>
+                                <a
+                                    href="https://kicks-ecomm.netlify.app/"
+                                    target="_blank"
+                                >
+                                    <FiArrowUpRight className="ml-2" />
+                                </a>
+                            </span>
                         </h3>
                         <p className="text-md text-gray-300 text-light">
                             This is a sneakers ecommerce app built with React
@@ -64,13 +90,25 @@ function Body() {
                         </p>
                     </div>
                     <div className="mb-6">
-                        <h3 className="font-semibold text-gray-100 pb-1 hover:underline ">
-                            <a
-                                href="https://themausam.netlify.app/"
-                                target="_blank"
-                            >
-                                the.mausam
-                            </a>
+                        <h3 className="font-semibold text-gray-100 pb-1 hover:underline">
+                            <span className="flex items-center">
+                                <a
+                                    href="https://themausam.netlify.app/"
+                                    target="_blank"
+                                    className="flex items-center mr-2"
+                                >
+                                    the.mausam
+                                </a>
+                                <a href="https://github.com/kumarhites/Weather-app">
+                                    <FaGithub />
+                                </a>
+                                <a
+                                    href="https://themausam.netlify.app/"
+                                    target="_blank"
+                                >
+                                    <FiArrowUpRight className="ml-2" />
+                                </a>
+                            </span>
                         </h3>
                         <p className="text-md text-gray-100 text-light">
                             the.mausam is a weather app which fetches data based
@@ -81,8 +119,12 @@ function Body() {
                     </div>
                     <div className="mb-6">
                         <h3 className="font-semibold text-gray-100 pb-1 hover:underline ">
-                            <Link to="/projects">
+                            <Link
+                                to="/projects"
+                                className="flex items-center mr-2"
+                            >
                                 <a href="#top">neoG Camp Projects</a>
+                                <FiArrowUpRight className="ml-2" />
                             </Link>
                         </h3>
                         <p className="text-md text-gray-100 text-light">
@@ -103,7 +145,13 @@ function Body() {
                             className="font-semibold text-gray-100 pb-1 hover:underline"
                             id="languages"
                         >
-                            <Link to="/blogs">Check out my blogs</Link>
+                            <Link
+                                to="/blogs"
+                                className="flex items-center mr-2"
+                            >
+                                Check out my blogs{" "}
+                                <FiArrowUpRight className="ml-2" />
+                            </Link>
                         </h3>
                         <p className="text-md text-gray-300 text-light">
                             I am also working on some technical and non
